@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openapi_downgrade"
-version = "1.0.0"
+version = "1.0.1"
 description = "Convert OpenAPI 3.1.x specifications to 3.0.x while preserving logic"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -13,6 +13,7 @@ dependencies = [
     "typer",
     "requests",
     "pyyaml",
+    "pytest",
     "jsonschema>=4.19.0"
 ]
 requires-python = ">=3.7"
