@@ -134,3 +134,13 @@ During conversion, the tool may encounter elements that are not directly convert
 
 It's crucial to review these warnings and make any necessary manual adjustments to the generated OpenAPI 3.0.x specification.
 
+## Testing
+
+Clone the repository, then in the cloned directory:
+
+```
+virtualenv .
+. bin/activate
+python3 -m pip install -e .
+python3 -m pytest tests/
+```

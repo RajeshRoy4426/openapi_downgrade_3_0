@@ -23,7 +23,7 @@ def convert_spec(spec: dict) -> dict:
     spec = downgrade_json_schema(spec, warnings)
     spec = fix_booleans(spec)
     spec = fix_exclusive_min_max(spec)
-    spec = simplify_anyof_null(spec)
+    spec = simplify_anyof_null(spec, warnings)
     spec = fix_null_type(spec)
     spec = convert_const(spec)
     spec = conditionals_to_oneof(spec)

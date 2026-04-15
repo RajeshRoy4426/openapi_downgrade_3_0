@@ -1,3 +1,10 @@
 .pytest_cache
 pytest_cache
 __pycache__
+CACHEDIR.TAG
+bin
+lib
+pyvenv.cfg
+lib64
+openapi_downgrade.egg-info
+warnings.txt
